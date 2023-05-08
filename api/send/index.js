@@ -8,8 +8,8 @@ import webpush from 'web-push'
 
 const defaultVapidDetails = {
   subject: 'mailto:example@yourdomain.org',
-  publicKey: 'BDd3_hVL9fZi9Ybo2UUzA284WG5FZR30_95YeZJsiApwXKpNcF1rRPF3foIiBHXRdJI2Qhumhf6_LFTeZaNndIo',
-  privateKey: 'xKZKYRNdFFn8iQIF2MH54KTfUHwH105zBdzMR7SI3xI',
+  publicKey: 'BDn0aUh8boxRCgcih2cM6m6dhjpaYpZ2URKK1UliqimKRg__j773SdixNsda8BqKdOPuQ5VDRwfMZ8YyVkBzr0s',
+  privateKey: 'qdjnQsVshj8qgwXOQhgxfzzdosfp91AOroyir2dO__U',
 }
 
 const send = o => webpush.sendNotification(o.subscription, JSON.stringify(o.payload || { title: 'Hello' }), {
